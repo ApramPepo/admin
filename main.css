@@ -97,8 +97,33 @@ video {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
+    display: flex;
 }
 
 .grid {
     display: grid;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #006eff;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+ul li {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
