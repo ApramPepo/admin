@@ -97,15 +97,14 @@ video {
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    display: flex;
 }
 
 .grid {
-    display: grid;
+    display: flex;
 }
 
 .sidebar {
-    width: 250px;
+    width: 15rem;
     background-color: #006eff;
     color: white;
     height: 100vh;
@@ -126,4 +125,42 @@ li:hover {
     cursor: pointer;
     text-decoration: underline;
     text-underline-offset: 6px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    gap: 50vw;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-left: 1rem;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
+    font-size: larger;
+    margin-right: 4rem;
+}
+
+.header-left input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 46ch;
+}
+
+.fa-magnifying-glass {
+    cursor: pointer;
+    font-size: large;
 }
