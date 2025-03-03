@@ -128,7 +128,7 @@ li:hover {
 }
 
 main {
-    width: 100vw;
+    width: calc(100vw - 17rem);
 }
 
 .top {
@@ -137,12 +137,8 @@ main {
     align-items: center;
     padding: 10px;
     background-color: #f4f4f4;
-    /* gap: 50vw; */
     height: 3rem;
-    /* width: 100vw; */
 }
-
-
 
 .header-left {
     display: flex;
@@ -203,4 +199,26 @@ main {
 
 .bro {
     margin-right: 5rem;
+}
+
+.bottom button {
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 1ch;
+    transition: 0.4s;
+    font-weight: 900;
+    font-size: medium;
+    border-radius: 4rem;
+}
+
+button:hover {
+    background-color: #006eff;
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+
+.header {
+    background-color: #f4f4f4;
 }
