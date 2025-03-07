@@ -237,3 +237,9 @@ button:hover {
     text-decoration: none;
     font-weight: lighter;
 }
+
+.fa-star,
+.fa-share-nodes,
+.fa-eye {
+    cursor: pointer;
+}
