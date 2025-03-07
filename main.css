@@ -229,5 +229,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 6rem;
+    margin-top: 2rem;
 }
