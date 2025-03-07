@@ -243,3 +243,34 @@ button:hover {
 .fa-eye {
     cursor: pointer;
 }
+
+.action {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 1ch;
+    opacity: 60%;
+}
+
+.cards {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 20vw 20vw;
+    grid-template-rows: 10vh 10vh;
+    gap: 5rem;
+}
+
+.proj {
+    margin-left: 14.4rem;
+    margin-top: 2rem;
+}
+
+.card {
+    border: dotted #ccc;
+    border-radius: 2ch;
+    padding: 1ch;
+    height: 12vh;
+    gap: 1vw;
+    overflow: auto;
+    word-wrap: break-word;
+}
