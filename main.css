@@ -250,6 +250,11 @@ button:hover {
     align-items: end;
     gap: 1ch;
     opacity: 60%;
+    transition: opacity 0.3s;
+}
+
+.action:hover {
+    opacity: 100%;
 }
 
 .cards {
@@ -261,7 +266,7 @@ button:hover {
 }
 
 .proj {
-    margin-left: 14.4rem;
+    margin-left: 7.4rem;
     margin-top: 2rem;
 }
 
@@ -273,4 +278,22 @@ button:hover {
     gap: 1vw;
     overflow: auto;
     word-wrap: break-word;
+}
+
+.innerSide {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.ann,
+.trend {
+    background-color: #ccc;
+    width: 17vw;
+    height: 21vh;
+    border: none;
+    border-radius: 2ch;
+    padding: 1rem;
+    overflow: scroll;
 }
