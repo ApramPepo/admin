@@ -210,6 +210,7 @@ main {
     font-weight: 900;
     font-size: medium;
     border-radius: 4rem;
+    background-color: white;
 }
 
 button:hover {
@@ -221,4 +222,12 @@ button:hover {
 
 .header {
     background-color: #f4f4f4;
+    box-shadow: 2px 3px 1px silver;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
