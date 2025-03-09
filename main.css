@@ -309,3 +309,27 @@ button:hover {
     font-weight: bold;
     font-size: smaller;
 }
+
+.panel2 {
+    font-weight: 100;
+    margin-top: 1rem;
+}
+
+span img {
+    width: auto;
+    height: 2.2rem;
+}
+
+.panel2 div {
+    display: flex;
+    align-items: center;
+}
+
+b {
+    font-weight: 800;
+}
+
+.panel2 img {
+    background-color: azure;
+    border-radius: 50%;
+}
